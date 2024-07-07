@@ -1,0 +1,77 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Global Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+/* Carousel Section */
+.carousel-container {
+  max-width: 1170px;
+  margin: auto;
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+.carousel {
+  background: azure;
+  margin: 0 1rem;
+}
+.carousel h2 {
+  padding-top: 1.5rem;
+}
+/* Carousel Item */
+.carousel-item {
+  margin-top: 1rem;
+}
+.carousel-item img {
+  max-width: 150px;
+  margin: auto;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+}
+.carousel-item .star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 20px;
+  color: rgb(244, 85, 85);
+  margin-bottom: 1rem;
+}
+
+.carousel-item p {
+  font-size: 16px;
+}
+.carousel-item q {
+  display: block;
+  max-width: 700px;
+  margin: auto;
+  padding: 0 1rem 3rem 1rem;
+  font-size: 18px;
+  font-style: italic;
+}
+/* carousel indicators style */
+.carousel-indicators [data-bs-target] {
+  background: red;
+  height: 15px;
+  width: 15px;
+  border: 0;
+  border-radius: 50%;
+}
+/* Carousel Next/Previous Btn */
+.bi-arrow-left,
+.bi-arrow-right {
+  color: red;
+  font-size: 22px;
+}
